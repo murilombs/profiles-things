@@ -1,0 +1,32 @@
+{
+  "name": "profiles-service",
+  "version": "1.0.0",
+  "description": "profiles manipulator",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.test | tap-spec",
+    "start": "nodemon src/index"
+  },
+  "author": "murilo-mbs",
+  "license": "ISC",
+  "dependencies": {
+    "azure-storage": "^2.10.3",
+    "bcrypt": "^3.0.6",
+    "body-parser": "^1.19.0",
+    "debug": "^4.1.1",
+    "dotenv-safe": "^6.1.0",
+    "express": "^4.17.1",
+    "guid": "0.0.12",
+    "helmet": "^3.18.0",
+    "http": "0.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.2.7",
+    "mongoose": "^5.5.15",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.19.1",
+    "supertest": "^4.0.2",
+    "tap-spec": "^5.0.0",
+    "tape": "^4.10.2",
+    "typescript": "^3.5.3"
+  }
+}
